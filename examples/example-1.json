@@ -1,0 +1,69 @@
+{
+  "14": {
+    "inputs": {
+      "model": "Model A",
+      "device": "cuda",
+      "compute_type": "float32"
+    },
+    "class_type": "(Down)Load My Model",
+    "_meta": {
+      "title": "(Down)Load My Model"
+    }
+  },
+  "15": {
+    "inputs": {
+      "a": 1,
+      "b": 2,
+      "model": [
+        "14",
+        0
+      ]
+    },
+    "class_type": "Calculate Plus",
+    "_meta": {
+      "title": "Calculate Plus"
+    }
+  },
+  "16": {
+    "inputs": {
+      "a": [
+        "15",
+        0
+      ],
+      "b": 3,
+      "model": [
+        "14",
+        0
+      ]
+    },
+    "class_type": "Calculate Minus",
+    "_meta": {
+      "title": "Calculate Minus"
+    }
+  },
+  "18": {
+    "inputs": {
+      "output": "",
+      "source": [
+        "22",
+        0
+      ]
+    },
+    "class_type": "Display Any (rgthree)",
+    "_meta": {
+      "title": "Display Any (rgthree)"
+    }
+  },
+  "22": {
+    "inputs": {
+      "value": [
+        "16",
+        0
+      ]
+    },
+    "class_type": "Example Output Node",
+    "_meta": {
+      "title": "Example Output Node"
+    }
+  }
+}
