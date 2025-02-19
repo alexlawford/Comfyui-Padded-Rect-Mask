@@ -3,7 +3,7 @@
 [project]
 name = "Comfyui-Padded-Rect-Mask"
 description = "Generates rectangular mask from coordinates with optional padding."
-version = "1.0.6"
+version = "1.0.7"
 license = {file = "LICENSE"}
 dependencies = [""]
 
@@ -13,5 +13,5 @@ Repository = "https://github.com/alexlawford/Comfyui-Padded-Rect-Mask"
 
 [tool.comfy]
 PublisherId = "alexlawford"
-DisplayName = "ComfyUI-Simple-Padding"
+DisplayName = "Comfyui-Padded-Rect-Mask"
 Icon = ""
