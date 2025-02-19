@@ -3,7 +3,7 @@
 [project]
 name = "Comfyui-Padded-Rect-Mask"
 description = "Generates rectangular mask from coordinates with optional padding."
-version = "1.0.8"
+version = "1.0.9"
 license = {file = "LICENSE"}
 dependencies = [""]
 

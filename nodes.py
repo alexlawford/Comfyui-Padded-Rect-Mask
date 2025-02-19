@@ -58,4 +58,5 @@ class RectMask:
             
         mask = torch.zeros((image_height, image_width))
         mask[int(min_y):int(max_y)+1, int(min_x):int(max_x)+1] = 1
-        return convert((mask.unsqueeze(0),))
+        return convert(mask.unsqueeze(0))
+
